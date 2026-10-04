@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang='pt-br'>
+<head>
+  <meta charset='utf-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <title>Psicologia Arquetípica</title>
+  <link rel='stylesheet' href='main.css'>
+</head>
+<body>
+  <header>
+    <h1>Psicologia Arquetípica</h1>
+    <p>Uma jornada pelo inconsciente coletivo através do Tarot e da Psicologia Analítica.</p>
+  </header>
+  <nav>
+    <ul>
+      <li><a href='index.html'>Início</a></li>
+      <li><a href='catalogo.html'>Catálogo de Arquétipos</a></li>
+      <li><a href='sonhos.html'>Sonhos e Símbolos</a></li>
+      <li><a href='tiragem.html'>Oráculo Virtual</a></li>
+      <li><a href='inscricao.html'>Inscreva-se no Grupo de Estudos</a></li>
+    </ul>
+  </nav>
+  <main>
+    <section>
+      <h2>Inscrição no Grupo de Estudos</h2>
+      <p>Preencha o formulário abaixo para se inscrever no nosso grupo de estudos sobre Psicologia Arquetípica e Tarot.</p>
+      <form action="#" method='post'>
+
+        <fieldset>
+          <legend>Dados Pessoais</legend>
+          <p>
+            <label for='nome'>Nome:</label><br>
+            <input type='text' id='nome' name='nome' required><br><br>
+          </p>
+          <p>
+            <label for='email'>Email:</label><br>
+            <input type='email' id='email' name='email' required><br><br>
+          </p>
+          <p>
+            <label for='telefone'>WhatsApp:</label><br>
+            <input type='tel' id='telefone' name='telefone'><br><br>
+          </p>
+          <p>
+            <label for="data_nascimento">Data de Nascimento:</label><br>
+            <input type="date" id="data_nascimento" name="data_nascimento">
+          </p>
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+          <legend>Perfil no Curso</legend>
+            <p> Qual seu nível de experiência com o Tarot?<br>
+              <input type="radio" id="iniciante" name="nivel_experiencia" value="iniciante">
+              <label for="iniciante">Iniciante (Nunca tirei cartas)</label><br>
+
+              <input type="radio" id="intermediario" name="nivel_experiencia" value="intermediario">
+              <label for="intermediario">Intermediário (Conheço um pouco sobre o assunto)</label><br>
+
+              <input type="radio" id="avancado" name="nivel_experiencia" value="avancado">
+              <label for="avancado">Avançado (Já faço leituras)</label><br>
+            </p>
+
+            <p>
+              Quais temas mais te interessam no curso? (Você pode selecionar mais de um)<br>
+                <input type="checkbox" id="tema-jung" name="interesses" value="jung">
+                <label for="tema-jung">Arquétipos de Jung e Sombra</label><br>
+
+                <input type="checkbox" id="tema-sonhos" name="interesses" value="sonhos">
+                <label for="tema-sonhos">Interpretação de Sonhos</label><br>
+
+                <input type="checkbox" id="tema-pratica" name="interesses" value="pratica">
+                <label for="tema-pratica">Prática de Tiragens e Oráculos</label>
+            </p>
+            <p>
+                <label for="turma">Preferência de Horário da Turma:</label><br>
+                <select id="turma" name="turma" required>
+                    <option value="">Selecione um turno...</option>
+                    <option value="matutino">Manhã ( Sábados, das 09h às 11h)</option>
+                    <option value="noturno">Noite (Quartas, das 19h às 21h)</option>
+                </select>
+            </p>
+            <p>
+                <label for="duvidas">Existe alguma dúvida que gostaria de ter esclarecida durante o curso?</label><br>
+                <textarea id="duvidas" name="duvidas" rows="4" cols="45" placeholder="Gostaria de saber como funciona a Sombra..."></textarea>
+            </p>
+        </fieldset>
+        <br>
+        <button type="submit">Confirmar Inscrição</button>
+        <button type="reset">Limpar Formulário</button>
+      </form>
+    </section>
+  </main>
+      <footer>
+        <p>&copy; 2026 Psicologia Arquetípica. Todos os direitos reservados. Desenvolvido por Marta, para a disciplina de Introdução ao Desenvolvimento Web.</p>
+      </footer>
+
+</body>
+</html>
